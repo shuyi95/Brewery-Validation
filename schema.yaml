@@ -1,0 +1,29 @@
+schema:
+  columns:
+    - Batch_ID
+    - Brew_Date
+    - Beer_Style
+    - SKU
+    - Location
+    - Fermentation_Time
+    - Temperature
+    - pH_Level
+    - Gravity
+    - Alcohol_Content
+    - Bitterness
+    - Color
+    - Ingredient_Ratio
+    - Volume_Produced
+    - Total_Sales
+    - Quality_Score
+    - Brewhouse_Efficiency
+    - Loss_During_Brewing
+    - Loss_During_Fermentation
+    - Loss_During_Bottling_Kegging
+file_name: brewery_data_complete_extended
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+table_name: brewery_data_complete_extended
+file_format: csv
+compression: gzip
